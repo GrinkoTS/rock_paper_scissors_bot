@@ -59,7 +59,7 @@ def handle_text(message):
     if message.text == '✂️':
 
         bot.reply_to(message, machine_answer)
-        
+
         if machine_answer == '📄':
 
             human_counter += 1
